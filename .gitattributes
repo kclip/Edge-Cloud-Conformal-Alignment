@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+./cifar100/cifar100_inference_results.pt filter=lfs diff=lfs merge=lfs -text
+cifar100/cifar100_inference_results.pt filter=lfs diff=lfs merge=lfs -text
