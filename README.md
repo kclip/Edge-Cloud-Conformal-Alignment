@@ -53,7 +53,7 @@ In order to reproduce the results presented in this paper, one can run ```python
 ### Example usage
 For instance, to obtain the selection results on the CIFAR-100 dataset using a user-defined miscoverage level $\alpha=0.2$, Gaussian kernel bandwidth for LCP $\sigma=20$, and target tolerated violation level for the average satisfaction rate $\delta=0.1$, one can run the following command:
 ```
-python ./CAb.py --dataset: cifar --alpha: 0.2 --sigma: 20 --delta: 0.1
+python ./CAb.py --dataset 'cifar' --alpha 0.2 --sigma 20 --delta 0.1
 ```
 By utilizing the inference results introduced for the CIFAR-100 dataset, this configuration reproduces the CAb model cascading behavior under the specified settings. 
 
